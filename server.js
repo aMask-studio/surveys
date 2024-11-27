@@ -6,10 +6,10 @@ const bodyParser = require('body-parser');
 const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
-    host: 'koyltoh4.beget.tech',
-    user: 'koyltoh4_yp',
-    password: 'L!j4Ah54*cBg',
-    database: 'koyltoh4_yp',
+    host: '_',
+    user: '_',
+    password: '_',
+    database: '_',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
