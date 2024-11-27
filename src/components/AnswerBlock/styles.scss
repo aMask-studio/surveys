@@ -1,0 +1,23 @@
+.answer-block{
+    display: inline-flex;
+    align-items: center;
+    border: solid 1px;
+    padding: 10px 15px 10px 15px;
+
+    .radio-button {
+        appearance: none;
+      
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+      
+        border: 2px solid #999;
+        transition: 0.2s all linear;
+        margin-left: 0px;
+        min-width: 16px;
+
+        &:checked{
+            border: 5px solid black;
+        }
+    }
+}
